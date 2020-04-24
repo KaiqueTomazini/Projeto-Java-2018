@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_radial"
+    android:scaleType="centerCrop"
+    tools:context="com.userdev.winnerstars.RegistroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_above="@+id/textView7"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNome"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/burbank"
+        android:text="Winner Stars"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnReg"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Nome e sobrenome"
+        android:inputType="textCapWords"
+        android:paddingBottom="20dp"
+        android:paddingStart="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/especial"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/btn_shape"
+        android:text="registrar"
+        android:textColor="#0B5991"
+        android:textSize="25dp"
+        android:backgroundTint="@color/yellowStar"/>
+
+    <RelativeLayout
+        android:id="@+id/especial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="abrirEspecial">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView8"
+            android:text="Acessar com cadastro especial"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#FFFFFF"
+            app:srcCompat="@drawable/ic_key" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="abrirFaq">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView9"
+            android:text="Sobre nosso projeto"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_information"
+            android:tint="#FFFFFF" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtTrocarwsvc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/bubblegum"
+        android:onClick="trocarWebservice"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:text="Trocar Webservice"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

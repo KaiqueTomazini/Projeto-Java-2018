@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Winner Stars</string>
+    <string name="app_about">Winner Stars é um aplicativo criado por alunos do 3º Info na intenção principal de auxiliar professores do colégio na avaliação dos grupos da MACCA. Todos os anos eram muitas folhas de papel sendo usadas para preencher relatórios e formulários para cada grupo da feira, então tentamos aplicar um pouco de \'TI Verde\' para ajudar o meio ambiente reduzindo os gastos de papel. Posteriormente vimos potencial na nossa criação e decidimos abrí-la aos visitantes para gerar feedback aos grupos participantes, montando, assim, um tipo de premiação. Os critérios de avaliação foram pensados com muito cuidado e cautela e sob orientação dos professores e do corpo docente do colégio.</string>
+    <string name="crit1">Domínio</string>
+    <string name="crit2">Interação</string>
+    <string name="crit3">Postura</string>
+    <string name="crit4">Apresentação</string>
+    <string name="crit5">Qualidade</string>
+
+    <!-- Intro -->
+    <string name="intro1_titulo">Bem vindo ao Winner Stars!</string>
+    <string name="intro1_desc">Obrigado por participar do nosso projeto\nSeu feedback pode ser muito importante!</string>
+
+    <string name="grupo_img_transition">grupo_img_transition</string>
+    <string name="grupo_txt_transition">grupo_txt_transition</string>
+    <string name="btnAluno">Possui cadastro especial?\\nClique Aqui</string>
+</resources>

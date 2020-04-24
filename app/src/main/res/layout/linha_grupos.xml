@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linhaCompleta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rowFG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageView"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:riv_border_width="0dip"
+                app:riv_corner_radius="30dip"
+                app:riv_mutate_background="true"
+                app:riv_oval="true"
+                app:riv_tile_mode="clamp"
+                android:transitionName="@string/grupo_img_transition" />
+
+            <TextView
+                android:id="@+id/mainText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/imageView"
+                android:singleLine="true"
+                android:layout_toStartOf="@+id/txtMesa"
+                android:ellipsize="marquee"
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Loft Salão de Beleza"
+                android:transitionName="@string/grupo_txt_transition" />
+
+            <TextView
+                android:id="@+id/subText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_alignStart="@+id/mainText"
+                android:layout_toStartOf="@+id/txtMesa"
+                android:maxLines="1"
+                android:paddingBottom="5dp"
+                android:textColor="#c8c8c8"
+                android:textSize="19sp"
+                tools:text="Informática (3º ano)" />
+
+            <TextView
+                android:id="@+id/txtMesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/subText"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center|right"
+                android:gravity="center|right"
+                android:text="19"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#67676767"
+        android:elevation="5dp"
+        android:id="@+id/view" />
+</RelativeLayout>

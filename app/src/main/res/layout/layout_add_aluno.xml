@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.userdev.winnerstars.admin.AddAlunoActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp">
+
+            <EditText
+                android:id="@+id/editTextt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nome completo do aluno"
+                android:inputType="textCapWords"
+                android:singleLine="true"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:paddingBottom="20dp"
+                android:paddingStart="15dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA" />
+
+
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Senha do QRCode"
+                android:inputType="textCapWords"
+                android:singleLine="true"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:paddingBottom="20dp"
+                android:paddingStart="15dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA" />
+
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Gerar senha (32 dígitos)"
+            android:onClick="gerarSenha"
+            android:background="@drawable/btn_shape"
+            android:backgroundTint="@color/yellowStar"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Atualizar"
+        android:background="@drawable/btn_shape"
+        android:backgroundTint="@color/yellowStar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_shape"
+        android:backgroundTint="@color/yellowStar"
+        android:text="Eliminar"
+        android:textColor="@color/redStar"
+        android:textSize="30dp"
+        android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

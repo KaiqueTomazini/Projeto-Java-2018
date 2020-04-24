@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_radial"
+    android:padding="5dp"
+    tools:context=".VotarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:padding="2dip"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/rank_dialog_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/burbank"
+                android:maxLines="1"
+                android:text="Winner Stars"
+                android:textAlignment="center"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/rank_dialog_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bruno Rodrigues Ricardo"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCrit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crit1"
+                android:textSize="20sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/crit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="#FFD700"
+                android:secondaryProgressTint="#FFD700"
+                android:stepSize="0.01" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCrit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crit2"
+                android:textSize="20sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/crit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="#FFD700"
+                android:secondaryProgressTint="#FFD700"
+                android:stepSize="0.01" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCrit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crit3"
+                android:textSize="20sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/crit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="#FFD700"
+                android:secondaryProgressTint="#FFD700"
+                android:stepSize="0.01" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCrit4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crit4"
+                android:textSize="20sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/crit4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="#FFD700"
+                android:secondaryProgressTint="#FFD700"
+                android:stepSize="0.01" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCrit5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crit5"
+                android:textSize="20sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/crit5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="#FFD700"
+                android:secondaryProgressTint="#FFD700"
+                android:stepSize="0.01" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rank_dialog_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape"
+            android:focusable="false"
+            android:text="VOTAR"
+            android:textColor="#0B5991"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

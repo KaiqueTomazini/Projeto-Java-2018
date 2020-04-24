@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libraries/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/libraries/MPChartLib/MPChartLib.iml" group="WinnerStars/libraries/MPChartLib" />
+      <module fileurl="file://$PROJECT_DIR$/WinnerStars.iml" filepath="$PROJECT_DIR$/WinnerStars.iml" group="WinnerStars" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="WinnerStars/app" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" group="WinnerStars/libraries" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/qrcode/qrcode.iml" filepath="$PROJECT_DIR$/libraries/qrcode/qrcode.iml" group="WinnerStars/libraries/qrcode" />
+    </modules>
+  </component>
+</project>
